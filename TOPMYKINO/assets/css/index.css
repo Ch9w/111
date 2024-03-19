@@ -1,0 +1,280 @@
+@font-face {
+	font-family: 'Inter'; 
+	src: local('Inter'),
+		url(../fonts/Inter-Regular.otf); 
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Inter';
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input {
+    font-family: 'Inter';
+}
+button {
+    font-family: 'Inter';
+}
+header {
+    display: flex;
+    color: white;
+    padding: 1%;
+    font-size: 1.67vw;
+}
+header div {
+    width: 25%;
+}
+header input {
+    border-radius: 10px;
+    font-size: 1.67vw;
+    border: 0px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+    outline:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+::-webkit-input-placeholder {text-align:right; color: white;}
+hr {
+    border-color: grey;
+    border-width: 2px;
+    margin: 0;
+}
+.div1 {
+    margin-top: 1%;
+    display: flex;
+    color: white;
+}
+.div1 div {
+    width: 50%;
+}
+.div1 div p{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.div1 div img {
+    border-radius: 30px;
+}
+.div1-block1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+}
+.div1-block1 span {
+    font-size: 3.33vw;
+}
+.span2 {
+    margin-top: -2%;
+}
+.div1-block1 p {
+    font-size: 1.25vw;
+    color: grey;
+}
+.textorange {
+    color: #FF5A24;
+}
+.btnSubscription {
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    border: 0px;
+    outline:none;
+    color: white;
+    font-size: 1.67vw;
+    padding: 4%;
+    border-radius: 1.04vw 2.60vw 1.04vw 2.60vw;
+    font-weight: bold;
+}
+footer {
+    display: flex;
+    color: white;
+    padding: 1%;
+    margin-bottom: 1.35vw;
+}
+footer div {
+    width: 25%;
+}
+.footerP {
+    font-size: 1.67vw;
+    height: fit-content;
+}
+.footerPgray {
+    color: grey;
+    font-size: 1.25vw;
+}
+.btnWrite {
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    border: 0px;
+    outline:none;
+    color: white;
+    font-size: 1.25vw;
+    padding: 4% 20% 4% 20%;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    letter-spacing: calc(1.25vw*35/100);
+}
+.h1head {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+.email {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hrorange {
+    border-color: #FF5A24;
+    border-width: 3px;
+    width: 100%;
+    box-sizing:border-box;
+}
+.inputEmail {
+    width: 100%;
+    font-size: 24px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    box-sizing:border-box;
+}
+.inputEmail::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align:left;
+    color: grey;
+}
+.password {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+}
+.inputPassword {
+    width: 100%;
+    font-size: 24px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    box-sizing:border-box;
+}
+.inputPassword::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align:left;
+    color: grey;
+}
+.btnAuthorization {
+    background: linear-gradient(to right, #FF8C20, #FF5A24);
+    border: 0px;
+    outline:none;
+    color: white;
+    font-size: 24px;
+    padding: 0.55% 7.1% 0.55% 7.1%;
+    border-radius: 20px 20px 20px 20px;
+    min-width: 340px;
+    min-height: 50px;
+    font-weight: bold;
+}
+.flexAuth {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flexAuth a {
+    color: grey;
+    font-size: 16px;
+    font-weight: bold;
+}
+.inputPasswordDouble {
+    width: 100%;
+    font-size: 24px;
+    border: 0px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    box-sizing:border-box;
+}
+.inputPasswordDouble::-webkit-input-placeholder {
+    font-weight: bold;
+    text-align:left;
+    color: grey;
+}
+button:hover {
+    text-shadow: black 0.21vw 0.31vw 0.42vw;
+}
+.inputSupport {
+    width: 100%;
+    font-size: 20px;
+    border-color: #FF5A24;
+    border-width: 3px;
+    border-radius: 20px;
+    outline: 0px;
+    background: none;
+    color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 8px;
+    height: 100%;
+    min-height: 300px;
+    resize: vertical;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+.inputSupport:focus {
+    border-color: white;
+
+}
+.inputSupport::-webkit-input-placeholder {
+    font-size: 24px;
+    font-weight: bold;
+    text-align:left;
+    color: grey;
+}
+.textSupport {
+    min-width: 520px;
+    width: 27%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+.flex {
+    margin: 0 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 13.54vw;
+}
+.flex a {
+    background-color: white;
+    border-radius: 0.52vw;
+}
+.flex a img {
+    width: 2.60vw;
+    height: 2.60vw;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px;
+}
+@media screen and (width <= 520px) {
+    .email, .password  {
+        min-width: none;
+    }
+}
